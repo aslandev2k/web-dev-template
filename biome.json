@@ -6,7 +6,21 @@
 		"useIgnoreFile": true
 	},
 	"files": {
-		"ignoreUnknown": false
+		"ignoreUnknown": true,
+		"maxSize": 100000,
+		"includes": [
+			"**/*.ts",
+			"**/*.tsx",
+			"**/*.jsx",
+			"**/*.css",
+			"**/*.json",
+			"**/*.js",
+			"**/*.html",
+			"!**/routeTree.gen.ts",
+			"!**/components/ui",
+			"!**/dist",
+			"!**/node_modules"
+		]
 	},
 	"formatter": {
 		"enabled": true,
@@ -59,6 +73,9 @@
 		"parser": {
 			"tailwindDirectives": true
 		},
+		"formatter": { "enabled": true }
+	},
+	"html": {
 		"formatter": { "enabled": true }
 	}
 }

@@ -6,8 +6,12 @@
 			"persistent": true
 		},
 		"build": {
-			"dependsOn": ["^build"],
-			"outputs": ["dist/**"]
+			"cache": false
+		},
+		"preview": {
+			"cache": false,
+			"dependsOn": ["build"],
+			"persistent": true
 		},
 		"lint": {},
 		"typecheck": {}

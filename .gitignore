@@ -2,6 +2,7 @@
 .env
 
 .turbo
+.tanstack
 .next
 .cache
 package-lock.json

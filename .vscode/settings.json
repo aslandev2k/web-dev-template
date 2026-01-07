@@ -23,7 +23,20 @@
 	"[jsonc]": {
 		"editor.defaultFormatter": "biomejs.biome"
 	},
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
 	"gitlens.advanced.blame.customArguments": ["--ignore-revs-file .git-blame-ignore-revs"],
 	"typescript.preferences.importModuleSpecifier": "non-relative",
-	"typescript.preferences.importModuleSpecifierEnding": "minimal"
+	"typescript.preferences.importModuleSpecifierEnding": "minimal",
+	"files.readonlyInclude": {
+		"**/routeTree.gen.ts": true,
+		"**/frontend/src/components/ui/*": true,
+	},
+	"files.watcherExclude": {
+		"**/routeTree.gen.ts": true
+	},
+	"search.exclude": {
+		"**/routeTree.gen.ts": true
+	}
 }
