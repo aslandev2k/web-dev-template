@@ -1,3 +1,4 @@
+import GoogleSVG from '@/assets/google-logo.svg?react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Field, FieldDescription, FieldGroup, FieldLabel } from '@/components/ui/field';
@@ -31,6 +32,7 @@ export function LoginForm({ className, ...props }: React.ComponentProps<'div'>) 
 							<Field>
 								<Button type="submit">Login</Button>
 								<Button variant="outline" type="button">
+									<GoogleSVG className="size-6" />
 									Login with Google
 								</Button>
 								<FieldDescription className="text-center">

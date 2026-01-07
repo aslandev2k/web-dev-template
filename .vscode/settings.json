@@ -31,7 +31,7 @@
 	"typescript.preferences.importModuleSpecifierEnding": "minimal",
 	"files.readonlyInclude": {
 		"**/routeTree.gen.ts": true,
-		"**/frontend/src/components/ui/*": true,
+		"**/frontend/src/components/ui/*": true
 	},
 	"files.watcherExclude": {
 		"**/routeTree.gen.ts": true
