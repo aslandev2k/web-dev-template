@@ -22,7 +22,6 @@ export default defineConfig({
 	],
 	resolve: {
 		alias: {
-			'@shadcn-ui': path.resolve('./src/shadcn/components/ui'),
 			'@': path.resolve(__dirname, './src'),
 		},
 	},
