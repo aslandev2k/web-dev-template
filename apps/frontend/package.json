@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "vite",
 		"build": "tsc -b && vite build",
-		"lint": "eslint .",
+		"clean": "rm -rf node_modules .turbo .tanstack",
 		"preview": "vite preview"
 	},
 	"dependencies": {
